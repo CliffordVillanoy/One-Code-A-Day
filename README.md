@@ -1,2 +1,2 @@
-# One-Code-A-Day
+# One Code A Day
 A Coding Practice for Python

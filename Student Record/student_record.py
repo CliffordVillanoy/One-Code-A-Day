@@ -32,5 +32,9 @@ print(f"Enrolled: {is_enrolled} — Type: {type(is_enrolled)}")
 print(f"\nGrades: {grades} — Type: {type(grades)}")
 print(f"Average Grade: {average_grade:.2f} — Type: {type(average_grade)}")
 print(f"Status: {status} — Type: {type(status)}")
-
+print(f"Grades (Detailed):")
+for subject, grade in grades.items():
+    print(f"  {subject}: {grade} — Type: {type(grade)}")    
 print("\n===== END OF STUDENT RECORD =====\n")
+
+    

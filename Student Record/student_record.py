@@ -47,3 +47,5 @@ for student_id, details in students.items():
     for subject, grade in details["grades"].items():
         print(f"  {subject}: {grade}")
     print("-" * 35)
+
+print ("===END OF RECORD===")

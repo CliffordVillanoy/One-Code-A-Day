@@ -10,3 +10,4 @@ print(user["interests"][1])
 
 del user["is_active"]
 
+

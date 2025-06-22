@@ -6,4 +6,7 @@ grades[2] = 80
 grades.append(92)
 
 print(grades)
-print(grades[2:])  # Slicing to get elements from index 2 to the end    
+print(grades[2:])  # Slicing to get elements from index 2 to the end 
+print(grades[1:3])  # Slicing to get elements from index 1 to index 2 (exclusive)       
+print(grades[:2])  # Slicing to get elements from the start to index 1 (exclusive)
+print(grades[-1])  # Accessing the last element using negative indexing

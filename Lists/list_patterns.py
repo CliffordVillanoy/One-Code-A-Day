@@ -13,4 +13,5 @@ print(grades[-1])  # Accessing the last element using negative indexing
 
 print(grades[-2:])  # Slicing to get the last two elements  
 print(grades[-3:-1])  # Slicing to get elements from the third last to the second last element
-print(grades[-3:])  # Slicing to get the first three elements          
+print(grades[-3:])  # Slicing to get the first three elements
+print(grades[:])  # Slicing to get all elements

@@ -19,3 +19,5 @@ print(grades[-3:2])  # Slicing from the third last to index 2 (exclusive)
 print(grades[-3:-2])  # Slicing to get the third last element  
 print(grades[1])
 print(grades[:])  # Slicing to get all elements
+print(grades[1:])  # Slicing to get elements from index 1 to the end
+print(grades[1:2])  # Slicing to get the element at index 1

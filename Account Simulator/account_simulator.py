@@ -32,7 +32,9 @@ for txn in transactions:
         account_holder["balance"] = projected_balance
         print(f"{txn_type} of ₱{abs(txn):.2f} successful.")
         print(f"New balance: ₱{account_holder['balance']:.2f}")
-        
+        print(f"Transaction Type: {txn_type}")
+        print(f"Account Holder: {account_holder['name']}")
+        print(f"Account Number: {account_holder['account_number']}")
 
 
 

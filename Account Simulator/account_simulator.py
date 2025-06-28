@@ -6,6 +6,9 @@ This script simulates basic bank account transactions using Python variables, ty
 Naming Convention: snake_case (PEP8)
 """
 
+from datetime import time
+
+
 account_holder =  {
     "name": "John Doe",
     "account_number": "123456789",
@@ -35,8 +38,8 @@ for txn in transactions:
         print(f"Transaction Type: {txn_type}")
         print(f"Account Holder: {account_holder['name']}")
         print(f"Account Number: {account_holder['account_number']}")
-
-
+        print(f"Transaction ID: {id(txn)}")
+     
 
 print("===== END OF TRANSACTION LOG =====")
 print(f"Final Balance for {account_holder['name']}: ₱{account_holder['balance']:.2f}\n")

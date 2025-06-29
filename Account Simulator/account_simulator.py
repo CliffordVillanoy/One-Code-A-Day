@@ -39,6 +39,8 @@ for txn in transactions:
         print(f"Account Holder: {account_holder['name']}")
         print(f"Account Number: {account_holder['account_number']}")
         print(f"Transaction ID: {id(txn)}")
+        print(f"Transaction Time: {time(12, 0, 0)}")
+        print("-" * 40)
      
 
 print("===== END OF TRANSACTION LOG =====")

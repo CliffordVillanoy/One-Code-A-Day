@@ -21,3 +21,5 @@ def get_letter_grade(score):
 print(f"Math: {get_letter_grade(math_grade)}")
 print(f"English: {get_letter_grade(english_grade)}")
 print(f"Science: {get_letter_grade(science_grade)}")
+print(f"Average: {get_letter_grade((math_grade + english_grade + science_grade) // 3)}")
+print("Thank you for using the grade conversion program!")

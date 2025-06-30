@@ -41,6 +41,7 @@ for txn in transactions:
         print(f"Transaction ID: {id(txn)}")
         print(f"Transaction Time: {time(12, 0, 0)}")
         print("-" * 40)
+        
      
 
 print("===== END OF TRANSACTION LOG =====")

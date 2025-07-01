@@ -24,6 +24,8 @@ print(f"Quantity: {stock_quantity} | Type: {type(stock_quantity)}")
 print(f"Available: {is_available} | Type: {type(is_available)}")
 print(f"Details: {product_details} | Type: {type(product_details)}")
 print(f"Tags: {product_tags} | Type: {type(product_tags)}")
+print(f"SKU: {product_details['sku']} | Type: {type(product_details['sku'])}")
+print(f"Manufacturer: {product_details['manufacturer']} | Type: {type(product_details['manufacturer'])}")
 
 print("\n===== END OF PRODUCT INFORMATION =====\n")
 

@@ -47,5 +47,9 @@ for student_id, details in students.items():
     for subject, grade in details["grades"].items():
         print(f"  {subject}: {grade}")
     print("-" * 35)
+    print (f"Average Grade: {sum(details['grades'].values()) / len(details['grades']):.2f}")
+    print("-" * 35)
+
+print("\n===== END OF STUDENT RECORDS =====\n")
 
 print ("===END OF RECORD===")

@@ -12,4 +12,8 @@ print("Full Name:", type(first_name + " " + last_name))
 print("First Name:", first_name)
 print("Last Name:", last_name)
 print("Full Name:", first_name + " " + last_name)
+print("First Name Length:", len(first_name))
+print("Last Name Length:", len(last_name))
+print("Full Name Length:", len(first_name + last_name))
+# The above code prints the data types of the variables first_name, last_name, and full name.
 

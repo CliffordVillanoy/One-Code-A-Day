@@ -25,6 +25,11 @@ print(f"Is Verified: {type(is_verified)}")
 print(f"Hobbies: {type(user_hobbies)}")
 print(f"Email Address: {type(user_contact['email'])}")
 print(f"Phone Number: {type(user_contact['phone'])}")
+print(f"Full Name: {user_name}")
+print(f"Age: {user_age}")
+print(f"Rating: {user_rating}")
+print(f"Is Verified: {is_verified}")
+print(f"Hobbies: {', '.join(user_hobbies)}")
 
 print("\n===== END OF USER PROFILE =====\n")
 # The script creates a user profile with various attributes and prints them in a formatted manner.

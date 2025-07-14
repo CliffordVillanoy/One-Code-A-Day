@@ -27,5 +27,10 @@ print(f"Email: {contact_info['email']} - Type: {type(contact_info['email'])}")
 print(f"Phone: {contact_info['phone']} - Type: {type(contact_info['phone'])}")
 
 print(f"Skills: {skills} - Type: {type(skills)}")
+print(f"Skills Count: {len(skills)} - Type: {type(len(skills))}")
+print(f"Contact Info: {contact_info} - Type: {type(contact_info)}")
+
+print(f"Contact Info Keys: {list(contact_info.keys())} - Type: {type(list(contact_info.keys()))}")
+print(f"Contact Info Values: {list(contact_info.values())} - Type: {type(list(contact_info.values()))}")
 
 print("\n===== END OF ENTRY =====\n")

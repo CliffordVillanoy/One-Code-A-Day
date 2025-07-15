@@ -38,5 +38,22 @@ for user in users:
         print(f"Access denied for {username} - Reason: Underage.")
     elif not is_verified:
         print(f"Access denied for {username} - Reason: Not verified")
+    else:
+        print(f"Access denied for {username} - Reason: Unknown.")
+
+# Step 1: Create a dictionary to hold articles by tags
+tagged_articles = {
+        "python": [
+        "Understanding Python Dictionaries",
+        "Python List Comprehensions Explained",
+        "How to Use Generators in Python"
+    ],
+    "web_dev": [
+        "HTML & CSS Crash Course",
+        "JavaScript for Beginners",
+        "Responsive Design Tips"
+    ],      
+
+}
 
 print("\n===== END =====\n")

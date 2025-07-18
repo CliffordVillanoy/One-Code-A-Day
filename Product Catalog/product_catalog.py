@@ -18,15 +18,10 @@ product_tags = ["electronics", "accessories", "wireless"]
 
 print("\n===== PRODUCT INFORMATION =====\n")
 
-print(f"Name: {product_name} | Type: {type(product_name)}")
-print(f"Price: {product_price} | Type: {type(product_price)}")
-print(f"Quantity: {stock_quantity} | Type: {type(stock_quantity)}")
-print(f"Available: {is_available} | Type: {type(is_available)}")
-print(f"Details: {product_details} | Type: {type(product_details)}")
-print(f"Tags: {product_tags} | Type: {type(product_tags)}")
-print(f"SKU: {product_details['sku']} | Type: {type(product_details['sku'])}")
-print(f"Manufacturer: {product_details['manufacturer']} | Type: {type(product_details['manufacturer'])}")
-print(f"First Tag: {product_tags[0]} | Type: {type(product_tags[0])}")
+print(f"Product Name: {product_name}")
+print(f"Price: ${product_price:.2f}")
+print(f"Stock Quantity: {stock_quantity}")
+print(f"Available: {'Yes' if is_available else 'No'}")
 
 
 print("\n===== END OF PRODUCT INFORMATION =====\n")

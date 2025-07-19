@@ -49,6 +49,26 @@ for student_id, details in students.items():
     print("-" * 35)
     print (f"Average Grade: {sum(details['grades'].values()) / len(details['grades']):.2f}")
     print("-" * 35)
+    if sum(details["grades"].values()) / len(details["grades"]) >= 90:
+        print("Status: Passed")
+    else:
+        print("Status: Failed")
+    print("-" * 35)
+    print(f"Type of Name: {type(details['name'])}")
+    print(f"Type of Year: {type(details['year'])}")
+    print(f"Type of Grades: {type(details['grades'])}")
+    print(f"Type of Grades Dictionary: {type(details['grades'])}")
+    print("-" * 35)
+    print(f"Type of Student ID: {type(student_id)}")
+    print(f"Type of Details: {type(details)}") 
+    print("-" * 35)
+    print()
+    print(f"Type of Average Grade: {type(sum(details['grades'].values()) / len(details['grades']))}")
+    print("-" * 35)
+    print(f"Type of Status: {type('Passed' if sum(details['grades'].values()) / len(details['grades']) >= 90 else 'Failed')}")
+    print("-" * 35)
+    print(f"Type of Grades Dictionary: {type(details['grades'])}")
+    print("-" * 35) 
 
 print("\n===== END OF STUDENT RECORDS =====\n")
 

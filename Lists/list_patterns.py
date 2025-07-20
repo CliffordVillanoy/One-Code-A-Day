@@ -21,3 +21,47 @@ print(grades[1])
 print(grades[:])  # Slicing to get all elements
 print(grades[1:])  # Slicing to get elements from index 1 to the end
 print(grades[1:2])  # Slicing to get the element at index 1
+print(grades[1:3])  # Slicing to get elements from index 1 to index 2 (exclusive)
+# Step 1: Create a dictionary to store student records
+students = {
+    "2023-001": {
+        "name": "John Doe",
+        "year": "1st Year",
+        "grades": {
+            "Math": 85,
+            "English": 90,
+            "Python": 88
+        }   
+    },
+
+    "2023-002": {
+        "name": "Jane Smith",
+        "year": "2nd Year",
+        "grades": {
+            "Math": 78,
+            "English": 82,
+            "Python": 80
+        }
+    },
+    "2023-003": {
+        "name": "Alice Johnson",
+        "year": "3rd Year",
+        "grades": {
+            "Math": 92,
+            "English": 95,
+            "Python": 94
+        }
+    }
+}
+# Step 2: Print all student records
+for student_id, student_info in students.items():
+    print(f"ID: {student_id}")
+    print(f"Name: {student_info['name']}")
+    print(f"Year: {student_info['year']}")
+    print("Grades:")
+    for subject, grade in student_info['grades'].items():
+        print(f"  {subject}: {grade}")
+    print()
+print("\n===== STUDENT RECORDS =====\n")
+print("===END OF RECORD===")
+print("\n===== END OF STUDENT RECORDS =====\n")

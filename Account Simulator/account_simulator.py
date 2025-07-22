@@ -29,20 +29,24 @@ for txn in transactions:
     projected_balance = account_holder["balance"] + txn
 
     if projected_balance < 0:
-        print (f"{txn_type} of ₱{abs(txn):.2f} failed. Insufficient funds for this transaction.")
+        print (f"{txn_type} of {abs(txn):.2f} failed. Insufficient funds for this transaction.")
 
     else:
         account_holder["balance"] = projected_balance
-        print(f"{txn_type} of ₱{abs(txn):.2f} successful.")
-        print(f"New balance: ₱{account_holder['balance']:.2f}")
+        print(f"{txn_type} of {abs(txn):.2f} successful.")
+        print(f"New balance: {account_holder['balance']:.2f}")
         print(f"Transaction Type: {txn_type}")
         print(f"Account Holder: {account_holder['name']}")
         print(f"Account Number: {account_holder['account_number']}")
         print(f"Transaction ID: {id(txn)}")
         print(f"Transaction Time: {time(12, 0, 0)}")
         print("-" * 40)
-        
-     
+        print(f"Transaction Details: {txn} - Type: {type(txn)}")
+        print(f"Projected Balance: {projected_balance:.2f} - Type: {type(projected_balance)}")
+        print(f"Account Holder Name: {account_holder['name']} - Type: {type(account_holder['name'])}")
+        print(f"Account Number: {account_holder['account_number']} - Type: {type (account_holder['account_number'])}")
+        print(f"Account Balance: {account_holder['balance']:.2f} - Type: {type(account_holder['balance'])}")
+
 
 print("===== END OF TRANSACTION LOG =====")
-print(f"Final Balance for {account_holder['name']}: ₱{account_holder['balance']:.2f}\n")
+print(f"Final Balance for {account_holder['name']}: {account_holder['balance']:.2f}\n")

@@ -24,8 +24,7 @@ print(f"Stock Quantity: {stock_quantity}")
 print(f"Available: {'Yes' if is_available else 'No'}")
 print(f"SKU: {product_details['sku']}")
 print(f"Manufacturer: {product_details['manufacturer']}")   
-print("Tags:", ", ".join(product_tags)) 
-print ("Product Tags:", product_tags)
+
 print("\n===== PRODUCT DETAILS =====\n")
 
 

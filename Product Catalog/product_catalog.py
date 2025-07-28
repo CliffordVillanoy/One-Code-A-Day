@@ -24,7 +24,12 @@ print(f"Stock Quantity: {stock_quantity}")
 print(f"Available: {'Yes' if is_available else 'No'}")
 print(f"SKU: {product_details['sku']}")
 print(f"Manufacturer: {product_details['manufacturer']}")   
-
+print(f"Tags: {', '.join(product_tags)}")
+print("\n===== PRODUCT CATEGORIES =====\n")
+product_categories = ["Computers", "Peripherals", "Input Devices"]
+for category in product_categories:
+    print(f"- {category}")
+print("\n===== PRODUCT REVIEWS =====\n")
 print("\n===== PRODUCT DETAILS =====\n")
 
 

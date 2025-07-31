@@ -50,6 +50,18 @@ for key, value in third_book.items():
     print("-" * 20)
     print(f"Type of {key}: {type(value)}")
     print("-" * 20)
+    print(f"Length of {key}: {len(str(value))}")
+    print("-" * 20)
+print("\n===== End of Book Details =====\n")
+
+print("\n===== UPDATED BOOK DETAILS =====\n")
+for key, value in third_book.items():
+    print(f"{key.capitalize()}: {value}")
+    print("-" * 20)
+    print(f"Type of {key}: {type(value)}")
+    print("-" * 20)
+    print(f"Length of {key}: {len(str(value))}")
+    print("-" * 20)
 print("===== End of Book Details =====\n")
 
 print("\n===== End of Program =====\n")

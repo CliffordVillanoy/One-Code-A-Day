@@ -38,6 +38,14 @@ for user in users:
         print(f"Access denied for {username} - Reason: Underage.")
     elif not is_verified:
         print(f"Access denied for {username} - Reason: Not verified")
+    elif age >= 18 and not is_verified:
+        print(f"Access denied for {username} - Reason: Not verified.")
+    elif age < 18 and not is_verified:
+        print(f"Access denied for {username} - Reason: Underage and not verified.")
+    elif age >= 18 and is_verified:
+        print(f"Access granted for {username} - Reason: Verified and of age.")
+    elif age < 18 and is_verified:
+        print(f"Access denied for {username} - Reason: Underage but verified.")
     else:
         print(f"Access denied for {username} - Reason: Unknown.")
 

@@ -60,6 +60,8 @@ for item in inventory:
     print("-" * 30)
     print(f"Is Active: {item['is_active']}")
     print(f"Type of Is Active: {type(item['is_active'])}")
+    print("-" * 30)
     print()
+    print("===== END OF ITEM REPORT =====\n")
 
 print("===== END OF INVENTORY REPORT =====\n")

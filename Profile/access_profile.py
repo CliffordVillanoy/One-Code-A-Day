@@ -13,6 +13,11 @@ print(user)
 print(user.get("role", "Role not found"))
 print(user.get("is_active", "Is Active not found"))
 print(user.get("interests", "Interests not found"))
+print(user.get("location", "Location not found"))
+print(user.get("name", "Name not found"))
+print(user.get("interests", ["No interests found"])[0])
+print(user.get("interests", ["No interests found"])[1])
+print(user.get("interests", ["No interests found"])[2])
 
 
 

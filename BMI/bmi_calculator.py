@@ -26,5 +26,21 @@ elif system_measure == "Metric":
         weight = weight * 2.2046
     if height_units == "m":
         height = height * 100
-
+print ("Your weight is: ", weight, "kg")
+print ("Your height is: ", height, "cm")
+bmi = weight / (height * height)
+print ("Your BMI is: ", bmi)
+print ("Your BMI category is: ", end='')
+if bmi < 18.5:
+    print("Underweight")
+elif 18.5 <= bmi <24.9:
+    print("Normal weight")
+elif 25 <= bmi <29.9:
+    print("Overweight")
+elif bmi >= 30:
+    print ("Obese")
+# BMI Calculator
+# This program calculates the Body Mass Index (BMI) based on user input for age, weightq
+# height, and the measurement system (Imperial or Metric).
+# It then categorizes the BMI into Underweight, Normal weight, Overweight, or Obese.
 

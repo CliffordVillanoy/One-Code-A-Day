@@ -39,8 +39,12 @@ elif 25 <= bmi <29.9:
     print("Overweight")
 elif bmi >= 30:
     print ("Obese")
+else:
+    print("Invalid input")
+
+print("End of BMI Calculator")
 # BMI Calculator
-# This program calculates the Body Mass Index (BMI) based on user input for age, weightq
+# This program calculates the Body Mass Index (BMI) based on user input for age, weight
 # height, and the measurement system (Imperial or Metric).
 # It then categorizes the BMI into Underweight, Normal weight, Overweight, or Obese.
 

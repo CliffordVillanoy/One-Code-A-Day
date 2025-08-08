@@ -39,6 +39,14 @@ elif 25 <= bmi <29.9:
     print("Overweight")
 elif bmi >= 30:
     print ("Obese")
+    
+elif system_measure not in ["Imperial", "Metric"]:
+    print("Invalid measurement system")
+elif weight_units not in ["kg", "lbs"]:
+    print("Invalid weight units")
+elif height_units not in ["m", "cm"]:
+    print("Invalid height units")
+    
 else:
     print("Invalid input")
 

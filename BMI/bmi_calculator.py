@@ -48,7 +48,7 @@ elif height_units not in ["m", "cm"]:
     print("Invalid height units")
     
 else:
-    print("Invalid input")
+    print("Enter valid age, weight, height, and measurement system.")
 
 print("End of BMI Calculator")
 # BMI Calculator

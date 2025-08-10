@@ -51,8 +51,8 @@ else:
     print("Enter valid age, weight, height, and measurement system.")
 
 print("End of BMI Calculator")
-# BMI Calculator
-# This program calculates the Body Mass Index (BMI) based on user input for age, weight
-# height, and the measurement system (Imperial or Metric).
-# It then categorizes the BMI into Underweight, Normal weight, Overweight, or Obese.
+print("BMI Calculator")
+print("This program calculates the Body Mass Index (BMI) based on user input for age, weight")
+print("height, and the measurement system (Imperial or Metric).")
+print("It then categorizes the BMI into Underweight, Normal weight, Overweight, or Obese.")
 

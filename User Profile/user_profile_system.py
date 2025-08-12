@@ -30,6 +30,8 @@ print(f"Age: {user_age}")
 print(f"Rating: {user_rating}")
 print(f"Is Verified: {is_verified}")
 print(f"Hobbies: {', '.join(user_hobbies)}")
+print(f"Contact Email: {user_contact['email']}")
+print(f"Contact Phone: {user_contact['phone']}")
 
 print("\n===== END OF USER PROFILE =====\n")
 # The script creates a user profile with various attributes and prints them in a formatted manner.

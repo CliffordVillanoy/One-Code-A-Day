@@ -29,6 +29,10 @@ print("\n===== PRODUCT CATEGORIES =====\n")
 product_categories = ["Computers", "Peripherals", "Input Devices"]
 for category in product_categories:
     print(f"- {category}")
+    print("-" * 20)
+    print(f"Category: {category}")
+    print(f"Type: {type(category)}")
+    print(f"Length: {len(category)}")
 print("\n===== PRODUCT REVIEWS =====\n")
 print("\n===== PRODUCT DETAILS =====\n")
 

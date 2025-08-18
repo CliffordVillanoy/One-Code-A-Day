@@ -35,8 +35,14 @@ else:
     print("No articles found for that tag.")
 
 # Step 1: Create a dictionary to hold articles by tags
+print("Welcome to the Tagged Articles Program")
+print("This program allows you to view and filter articles by tags.\n")
+print("===== TAGGED ARTICLES =====\n")
+
 # Step 4: Add a new article to a tag
 new_article = input("Enter a new article title to add under the selected tag: ").strip()
+new_article = new_article if new_article else "Untitled Article"
+new_article = new_article[:50]  # Limit title to 50 characters
 
 if selected_tag in tagged_articles:
     tagged_articles[selected_tag].append(new_article)
@@ -51,5 +57,5 @@ if selected_tag in tagged_articles:
         print(f"  - {article}") 
 else:
     print("No articles found for that tag.")
-                        
-print ("End of Article")
+
+print("End of Article")

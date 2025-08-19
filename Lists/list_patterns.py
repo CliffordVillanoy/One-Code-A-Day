@@ -22,7 +22,8 @@ print(grades[:])  # Slicing to get all elements
 print(grades[1:])  # Slicing to get elements from index 1 to the end
 print(grades[1:2])  # Slicing to get the element at index 1
 print(grades[1:3])  # Slicing to get elements from index 1 to index 2 (exclusive)
-print
+print(grades[1:4])  # Slicing to get elements from index 1 to index 3 (exclusive)
+print(grades[1:])  # Slicing to get elements from index 1 to the end
 # Step 1: Create a dictionary to store student records
 students = {
     "2023-001": {

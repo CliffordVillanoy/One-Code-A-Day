@@ -5,6 +5,8 @@ def usd_to_php(amount):
 def main():
     print("Welcome to the Currency Converter!")
     print("1. USD to PHP")
+    print("2. PHP to USD")
+    print("3. Exit")
     choice = input("Enter your choice: ")
 
     if choice == '1':
@@ -16,7 +18,9 @@ def main():
             print("Invalid input. Please enter a numeric value.")
     else:
         print("Invalid choice.")
+        return
 
 if __name__ == "__main__":
     main()
-    
+    print("Thank you for using the Currency Converter!")
+

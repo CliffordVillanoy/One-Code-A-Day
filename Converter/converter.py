@@ -16,8 +16,11 @@ def main():
             print(f"{usd_amount} USD is equal to {php_amount:.2f} PHP")
         except ValueError:
             print("Invalid input. Please enter a numeric value.")
+            print("Exiting the converter.")
     else:
         print("Invalid choice.")
+        print("Exiting the converter.") 
+        print("Please try again.")
         return
 
 if __name__ == "__main__":

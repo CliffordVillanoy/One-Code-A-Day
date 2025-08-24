@@ -46,13 +46,12 @@ elif weight_units not in ["kg", "lbs"]:
     print("Invalid weight units")
 elif height_units not in ["m", "cm"]:
     print("Invalid height units")
-    
+elif age <= 0 or weight <= 0 or height <= 0:
+    print("Invalid age, weight, or height.")
+    valid_input = False
 else:
     print("Enter valid age, weight, height, and measurement system.")
 
 print("End of BMI Calculator")
-print("BMI Calculator")
-print("This program calculates the Body Mass Index (BMI) based on user input for age, weight")
-print("height, and the measurement system (Imperial or Metric).")
-print("It then categorizes the BMI into Underweight, Normal weight, Overweight, or Obese.")
+
 

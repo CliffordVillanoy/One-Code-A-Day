@@ -13,12 +13,14 @@ inventory = [
         "quantity_stocks": 100,
         "is_active": True,
     },
+    
     {
         "item_name": "Widget B",
         "unit_price": 29.99,
         "quantity_stocks": 200,
         "is_active": False,
     },
+
     {
         "item_name": "Widget C",
         "unit_price": 15.49,
@@ -31,6 +33,13 @@ inventory = [
         "quantity_stocks": 0,
         "is_active": False,
     },
+
+    {
+        "item_name": "Widget E",
+        "unit_price": 39.99,
+        "quantity_stocks": 50,
+        "is_active": True,
+    }
 ]
 
 print("\nInventory Report")
@@ -43,11 +52,6 @@ for item in inventory:
     quantity_stocks = item["quantity_stocks"]
     total_value = unit_price * quantity_stocks
 
-    print(f"Item: {item_name}")
-    print(f"Unit Price: ${unit_price:.2f}", "Type:", type(unit_price))
-    print(f"Quantity in Stock: {quantity_stocks}", "Type:", type(quantity_stocks))
-    print(f"  Total Stock Value: ₱{total_value:.2f}")
-    print("-" * 30)
     print(f"Type of Item Name: {type(item_name)}")
     print(f"Type of Unit Price: {type(unit_price)}")
     print(f"Type of Quantity Stocks: {type(quantity_stocks)}")

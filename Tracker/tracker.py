@@ -52,11 +52,6 @@ for item in inventory:
     quantity_stocks = item["quantity_stocks"]
     total_value = unit_price * quantity_stocks
 
-    print(f"Type of Item Name: {type(item_name)}")
-    print(f"Type of Unit Price: {type(unit_price)}")
-    print(f"Type of Quantity Stocks: {type(quantity_stocks)}")
-    print(f"Type of Total Value: {type(total_value)}")
-    print("-" * 30)
     print(f"Length of Item Name: {len(item_name)}")
     print(f"Length of Unit Price: {len(str(unit_price))}")
     print(f"Length of Quantity Stocks: {len(str(quantity_stocks))}")

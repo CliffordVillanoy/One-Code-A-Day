@@ -60,6 +60,9 @@ for item in inventory:
     print(f"Is Active: {item['is_active']}")
     print(f"Type of Is Active: {type(item['is_active'])}")
     print("-" * 30)
+    print(f"Item Name: {item_name}")
+    print(f"Unit Price: ${unit_price:.2f}")
+    print(f"Quantity Stocks: {quantity_stocks}")
     print()
     print("===== END OF ITEM REPORT =====\n")
 

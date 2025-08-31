@@ -53,9 +53,7 @@ for student_id, details in students.items():
         print("Status: Passed")
     else:
         print("Status: Failed")
-    print("-" * 35)
-    print(f"Type of Name: {type(details['name'])}")
-    print(f"Type of Year: {type(details['year'])}")
+    
     print(f"Type of Grades: {type(details['grades'])}")
     print(f"Type of Grades Dictionary: {type(details['grades'])}")
     print("-" * 35)

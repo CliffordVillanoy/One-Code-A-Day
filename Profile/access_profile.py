@@ -22,6 +22,9 @@ print(user.get("interests", ["No interests found"])[3])
 print(user.keys())
 print(user.values())
 print(user.items())
+print(user.copy())
+print(user.clear())
+print(user) 
 print(len(user))
 
 

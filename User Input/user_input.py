@@ -19,6 +19,9 @@ print("Full Name Uppercase:", first_name.upper() + " " + last_name.upper())
 print("Full Name Lowercase:", first_name.lower() + " " + last_name.lower())
 print("Full Name Titlecase:", first_name.title() + " " + last_name.title())
 print("Full Name Capitalized:", first_name.capitalize() + " " + last_name.capitalize())
+print("First Name is Alphabetic:", first_name.isalpha())
+print("Last Name is Alphabetic:", last_name.isalpha())
+print("First Name is Alphanumeric:", first_name.isalnum())
 # The above code takes the user's first and last name as input and prints a welcome message.
 # The above code prints the data types of the variables first_name, last_name, and full name.
 

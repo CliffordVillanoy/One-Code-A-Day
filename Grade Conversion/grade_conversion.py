@@ -18,6 +18,11 @@ def get_letter_grade(score):
     else:
         return "C"
 
+print("\n===== GRADE CONVERSION RESULTS =====\n")
+print("Subject Grades:")
+print(f"Math: {math_grade} -> {get_letter_grade(math_grade)}")
+print(f"English: {english_grade} -> {get_letter_grade(english_grade)}")
+print(f"Science: {science_grade} -> {get_letter_grade(science_grade)}")
 print(f"Math: {get_letter_grade(math_grade)}")
 print(f"English: {get_letter_grade(english_grade)}")
 print(f"Science: {get_letter_grade(science_grade)}")

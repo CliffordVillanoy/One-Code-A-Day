@@ -43,7 +43,5 @@ print(f"Skills List Sorted: {sorted(skills)} - Type: {type(sorted(skills))}")
 print(f"Skills List Reversed Sorted: {sorted(skills, reverse=True)} - Type: {type(sorted(skills, reverse=True))}")
 print(f"Skills List Count of 'Python': {skills.count('Python')} - Type: {type(skills.count('Python'))}")
 print(f"Skills List Index of 'Data Analysis': {skills.index('Data Analysis')} - Type: {type(skills.index('Data Analysis'))}")
-print(f"Skills List Concatenated: {skills + ['Communication', 'Teamwork']} - Type: {type(skills + ['Communication', 'Teamwork'])}")
-print(f"Skills List Repeated: {skills * 2} - Type: {type(skills * 2)}")
-print(f"Skills List Membership Test: {'Python' in skills} - Type: {type('Python' in skills)}")
+
 print("\n===== END OF ENTRY =====\n")

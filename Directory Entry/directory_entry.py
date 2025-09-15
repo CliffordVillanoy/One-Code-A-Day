@@ -43,5 +43,6 @@ print(f"Skills List Sorted: {sorted(skills)} - Type: {type(sorted(skills))}")
 print(f"Skills List Reversed Sorted: {sorted(skills, reverse=True)} - Type: {type(sorted(skills, reverse=True))}")
 print(f"Skills List Count of 'Python': {skills.count('Python')} - Type: {type(skills.count('Python'))}")
 print(f"Skills List Index of 'Data Analysis': {skills.index('Data Analysis')} - Type: {type(skills.index('Data Analysis'))}")
-
+print(f"Skills List Append 'SQL': {skills.append('SQL')} - Type: {type(skills.append('SQL'))}")
+print(f"Skills List After Append: {skills} - Type: {type(skills)}")
 print("\n===== END OF ENTRY =====\n")

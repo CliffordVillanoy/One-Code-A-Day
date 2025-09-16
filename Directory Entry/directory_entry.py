@@ -45,4 +45,8 @@ print(f"Skills List Count of 'Python': {skills.count('Python')} - Type: {type(sk
 print(f"Skills List Index of 'Data Analysis': {skills.index('Data Analysis')} - Type: {type(skills.index('Data Analysis'))}")
 print(f"Skills List Append 'SQL': {skills.append('SQL')} - Type: {type(skills.append('SQL'))}")
 print(f"Skills List After Append: {skills} - Type: {type(skills)}")
+print(f"Skills List Pop: {skills.pop()} - Type: {type(skills.pop())}")
+print(f"Skills List After Pop: {skills} - Type: {type(skills)}")
+print(f"Skills List Insert 'SQL' at Index 3: {skills.insert(3, 'SQL')} - Type: {type(skills.insert(3, 'SQL'))}")
+print(f"Skills List After Insert: {skills} - Type: {type(skills)}")
 print("\n===== END OF ENTRY =====\n")

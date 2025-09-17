@@ -7,15 +7,19 @@ print(f"You are {age} years old.")
 math_grade_str = input("Enter your Math grade: ")
 english_grade_str = input("Enter your English grade: ")
 science_grade_str = input("Enter your Science grade: ")
+history_grade_str = input("Enter your History grade: ")
 
 # Convert grades to integers immediately after input
 math_grade = int(math_grade_str)
 english_grade = int(english_grade_str)
 science_grade = int(science_grade_str)
+history_grade = int(history_grade_str)
 
+# Print grades
 print(f"Math grade: {math_grade}")
 print(f"English grade: {english_grade}")
 print(f"Science grade: {science_grade}")
+print(f"History grade: {history_grade}")
 
 #Math grade
 if math_grade <= 50: # Now comparing integers
@@ -39,7 +43,7 @@ elif science_grade >= 75:
 else:
     print("You are doing well in Science!")
 
-average = (math_grade + english_grade + science_grade) / 3 # No need for int() here anymore
+average = (math_grade + english_grade + science_grade + history_grade) / 4 # No need for int() here anymore
 print(f"Your average grade is: {average}")
 if average <= 50:
     print("You need to improve your grades.")

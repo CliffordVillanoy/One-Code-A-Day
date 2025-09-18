@@ -26,4 +26,7 @@ def main():
 if __name__ == "__main__":
     main()
     print("Thank you for using the Currency Converter!")
-
+# The above code defines a simple currency converter that converts USD to PHP.
+# It prompts the user to enter an amount in USD and displays the equivalent amount in PHP.
+# The program handles invalid inputs gracefully and exits if the user enters an invalid choice or non-numeric value.
+# The program also thanks the user for using the converter upon exit.

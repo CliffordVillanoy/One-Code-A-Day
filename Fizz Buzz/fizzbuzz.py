@@ -1,4 +1,17 @@
 def fizzbuzz(n):
+    """Returns 'Fizz' for multiples of 3, 'Buzz' for multiples of 5,
+    and 'FizzBuzz' for multiples of both 3 and 5. Otherwise, returns the number as a string."""
+    
+    # Fix: Added the missing return statement for Buzz
+    if n % 3 == 0 and n % 5 == 0:
+        return "FizzBuzz"
+    elif n % 3 == 0:
+        return "Fizz"
+    elif n % 5 == 0:
+        return "Buzz"
+    else:
+        return str(n)
+def fizzbuzz(n):
     if n % 3 == 0 and n % 5 == 0:
         return "FizzBuzz"
     elif n % 3 == 0:
@@ -21,3 +34,4 @@ def test_fizzbuzz():
 print("Please input a number:")
 user_input = int(input())
 print(fizzbuzz(user_input))
+print("Thank you for using the FizzBuzz program!")

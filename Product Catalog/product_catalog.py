@@ -36,6 +36,9 @@ for category in product_categories:
     print(f"Uppercase: {category.upper()}")
     print(f"Lowercase: {category.lower()}")
     print(f"Is Alphanumeric: {category.isalnum()}")
+    print(f"Is Alphabetic: {category.isalpha()}")
+    print(f"Is Digit: {category.isdigit()}")
+    print(f"Is Title: {category.istitle()}")
 print("\n===== PRODUCT REVIEWS =====\n")
 print("\n===== PRODUCT DETAILS =====\n")
 

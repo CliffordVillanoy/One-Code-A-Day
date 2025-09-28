@@ -33,7 +33,8 @@ print("First Name is Printable:", first_name.isprintable())
 print("Last Name is Printable:", last_name.isprintable())
 print("First Name is Space:", first_name.isspace())
 print("Last Name is Space:", last_name.isspace())
-
+print("First Name is Decimal:", first_name.isdecimal())
+print("Last Name is Decimal:", last_name.isdecimal())
 # The above code takes the user's first and last name as input and prints a welcome message.
 # The above code prints the data types of the variables first_name, last_name, and full name.
 

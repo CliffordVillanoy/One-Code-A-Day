@@ -67,8 +67,10 @@ for student_id, details in students.items():
     print(f"Type of Status: {type('Passed' if sum(details['grades'].values()) / len(details['grades']) >= 90 else 'Failed')}")
     print("-" * 35)
     print(f"Type of Grades Dictionary: {type(details['grades'])}")
-    print("-" * 35) 
-
+    print("-" * 35)
+    print(details['grades'])
+    print("=" * 40)
+    print()
 print("\n===== END OF STUDENT RECORDS =====\n")
 
 print ("===END OF RECORD===")

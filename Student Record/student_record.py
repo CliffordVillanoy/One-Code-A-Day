@@ -70,7 +70,10 @@ for student_id, details in students.items():
     print("-" * 35)
     print(details['grades'])
     print("=" * 40)
-    print()
+    print("\n")
+    print("-" * 50)
+    print("\n")
+
 print("\n===== END OF STUDENT RECORDS =====\n")
 
 print ("===END OF RECORD===")

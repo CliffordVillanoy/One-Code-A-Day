@@ -73,6 +73,10 @@ for student_id, details in students.items():
     print("\n")
     print("-" * 50)
     print("\n")
+    print("-" * 60)
+    print("\n")
+    print("-" * 70)
+    print("\n")
 
 print("\n===== END OF STUDENT RECORDS =====\n")
 

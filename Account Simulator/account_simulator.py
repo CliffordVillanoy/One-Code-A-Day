@@ -52,6 +52,13 @@ for txn in transactions:
         print(f"  Account Number: {account_holder['account_number']}")
         print(f"  Final Balance: {account_holder['balance']:.2f}")
         print("-" * 40)
+        print("-" * 40)
+        print("\n")
+        print("-" * 40)
+        print("\n")
+        print("-" * 40)
+        print("\n")
+
 
 print("===== END OF TRANSACTION LOG =====")
 print(f"Final Balance for {account_holder['name']}: {account_holder['balance']:.2f}\n")

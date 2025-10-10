@@ -74,6 +74,8 @@ for key, value in third_book.items():
     print("-" * 20)
     print(f"Is '{key}' a dictionary? {isinstance(value, dict)}")
     print("-" * 20)
+    print(f"Is '{key}' a tuple? {isinstance(value, tuple)}")
+    print("-" * 20)
 print("===== End of Book Details =====\n")
 
 print("\n===== End of Program =====\n")

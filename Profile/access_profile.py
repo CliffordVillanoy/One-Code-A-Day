@@ -30,5 +30,8 @@ print(user.values())
 print(user.items())
 print(user)
 print(len(user))
-
+print("name" in user)
+print("location" in user)
+print("role" in user)
+print("is_active" in user)
 

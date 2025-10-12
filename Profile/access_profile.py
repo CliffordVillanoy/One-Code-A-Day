@@ -34,4 +34,12 @@ print("name" in user)
 print("location" in user)
 print("role" in user)
 print("is_active" in user)
+user["location"] = "Remote"
+print(user)
+print(len(user))
+print("name" in user)
+print("location" in user)
+print("role" in user)
+print("is_active" in user)
+print(user)
 

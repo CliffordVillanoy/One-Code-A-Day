@@ -39,6 +39,9 @@ for category in product_categories:
     print(f"Is Alphabetic: {category.isalpha()}")
     print(f"Is Digit: {category.isdigit()}")
     print(f"Is Title: {category.istitle()}")
+    print(f"Is Printable: {category.isprintable()}")
+    print(f"Is Space: {category.isspace()}")
+    print("-" * 20)
 print("\n===== PRODUCT REVIEWS =====\n")
 print("\n===== PRODUCT DETAILS =====\n")
 

@@ -42,6 +42,8 @@ for category in product_categories:
     print(f"Is Printable: {category.isprintable()}")
     print(f"Is Space: {category.isspace()}")
     print("-" * 20)
+    [print(f"Character '{char}': Type: {type(char)}, Ordinal: {ord(char)}") for char in category]
+    print("\n===== END OF PRODUCT CATEGORIES =====\n")
 print("\n===== PRODUCT REVIEWS =====\n")
 print("\n===== PRODUCT DETAILS =====\n")
 

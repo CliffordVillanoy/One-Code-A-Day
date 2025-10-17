@@ -70,6 +70,11 @@ for item in inventory:
     print(f"Item Name Titlecase: {item_name.title()}")
     print(f"Is Item Name Alphanumeric: {item_name.isalnum()}")
     print(f"Is Item Name Alphabetic: {item_name.isalpha()}")
+    print(f"Is Item Name Digit: {item_name.isdigit()}")
+    print(f"Is Item Name Title: {item_name.istitle()}")
+    print(f"Is Item Name Printable: {item_name.isprintable()}")
+    print(f"Is Item Name Space: {item_name.isspace()}")
+    print("-" * 30)
     print("===== END OF ITEM REPORT =====\n")
 
 print("===== END OF INVENTORY REPORT =====\n")

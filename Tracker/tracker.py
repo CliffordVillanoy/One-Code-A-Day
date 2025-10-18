@@ -75,6 +75,8 @@ for item in inventory:
     print(f"Is Item Name Printable: {item_name.isprintable()}")
     print(f"Is Item Name Space: {item_name.isspace()}")
     print("-" * 30)
+    print(f"Item Report Generated On: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("-" * 30)
     print("===== END OF ITEM REPORT =====\n")
 
 print("===== END OF INVENTORY REPORT =====\n")

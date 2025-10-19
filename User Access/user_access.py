@@ -60,8 +60,12 @@ tagged_articles = {
         "HTML & CSS Crash Course",
         "JavaScript for Beginners",
         "Responsive Design Tips"
-    ],      
-
+    ],
+    "data_science": [
+        "Data Analysis with Pandas",
+        "Machine Learning with Scikit-Learn",
+        "Deep Learning with TensorFlow"
+    ]
 }
 
 print("\n===== END =====\n")

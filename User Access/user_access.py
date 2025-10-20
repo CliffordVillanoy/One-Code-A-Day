@@ -66,6 +66,12 @@ tagged_articles = {
         "Machine Learning with Scikit-Learn",
         "Deep Learning with TensorFlow"
     ]
+    " machine_learning": [
+        "Supervised Learning",
+        "Unsupervised Learning",
+        "Reinforcement Learning"
+    ]
+
 }
 
 print("\n===== END =====\n")

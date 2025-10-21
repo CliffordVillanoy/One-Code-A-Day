@@ -71,6 +71,11 @@ tagged_articles = {
         "Unsupervised Learning",
         "Reinforcement Learning"
     ]
+    "ai": [
+        "Intro to Neural Networks",
+        "What is Machine Learning?",
+        "Natural Language Processing Basics"
+    ]
 
 }
 

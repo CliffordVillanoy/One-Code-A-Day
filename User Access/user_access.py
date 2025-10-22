@@ -76,6 +76,11 @@ tagged_articles = {
         "What is Machine Learning?",
         "Natural Language Processing Basics"
     ]
+    "cloud_computing": [
+        "Getting Started with AWS",
+        "Azure Fundamentals",
+        "Google Cloud Platform Basics"
+    ]
 
 }
 

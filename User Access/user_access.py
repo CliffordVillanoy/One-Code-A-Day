@@ -81,6 +81,11 @@ tagged_articles = {
         "Azure Fundamentals",
         "Google Cloud Platform Basics"
     ]
+        "cyber_security": [
+        "Understanding Cyber Threats",
+        "Best Practices for Online Security",
+        "Introduction to Ethical Hacking"
+    ]
 
 }
 

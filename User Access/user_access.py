@@ -86,7 +86,11 @@ tagged_articles = {
         "Best Practices for Online Security",
         "Introduction to Ethical Hacking"
     ]
-
+        "game_dev": [
+        "Unity for Beginners",
+        "Game Design Principles",
+        "Creating 2D Games with Godot"
+    ]
 }
 
 print("\n===== END =====\n")

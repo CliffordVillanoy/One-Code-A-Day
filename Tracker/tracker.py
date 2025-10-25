@@ -77,6 +77,8 @@ for item in inventory:
     print("-" * 30)
     print(f"Item Report Generated On: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("-" * 30)
+    print(f"Total Characters in Item Report: {len(item_name) + len(str(unit_price)) + len(str(quantity_stocks)) + len(str(total_value))}")
+    print("-" * 30)
     print("===== END OF ITEM REPORT =====\n")
 
 print("===== END OF INVENTORY REPORT =====\n")

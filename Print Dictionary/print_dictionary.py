@@ -80,6 +80,8 @@ for key, value in third_book.items():
     print("-" * 20)
     print(f"Is '{key}' a range? {isinstance(value, range)}")
     print("-" * 20)
+    print(f"Is '{key}' NoneType? {value is None}")
+    print("-" * 20)   
 print("===== End of Book Details =====\n")
 
 print("\n===== End of Program =====\n")

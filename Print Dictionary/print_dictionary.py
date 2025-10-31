@@ -82,6 +82,12 @@ for key, value in third_book.items():
     print("-" * 20)
     print(f"Is '{key}' NoneType? {value is None}")
     print("-" * 20)   
+    print(f"Is '{key}' a complex number? {isinstance(value, complex)}")
+    print("-" * 20)
+    print(f"Is '{key}' a frozenset? {isinstance(value, frozenset)}")
+    print("-" * 20)
+    print(f"Is '{key}' a bytes? {isinstance(value, bytes)}")
+    print("-" * 20)
 print("===== End of Book Details =====\n")
 
 print("\n===== End of Program =====\n")

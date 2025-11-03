@@ -34,4 +34,11 @@ def test_fizzbuzz():
 print("Please input a number:")
 user_input = int(input())
 print(fizzbuzz(user_input))
+print(fizzbuzz(user_input))
+print(fizzbuzz(user_input))
+print(fizzbuzz(user_input))
+print(fizzbuzz(user_input))
+print(fizzbuzz(user_input))
+
+test_fizzbuzz()
 print("Thank you for using the FizzBuzz program!")

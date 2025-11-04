@@ -49,6 +49,9 @@ elif height_units not in ["m", "cm"]:
 elif age <= 0 or weight <= 0 or height <= 0:
     print("Invalid age, weight, or height.")
     valid_input = False
+elif age < 18:
+    print("BMI calculator is for individuals 18 years or older.")
+    valid_input = False 
 else:
     print("Enter valid age, weight, height, and measurement system.")
 

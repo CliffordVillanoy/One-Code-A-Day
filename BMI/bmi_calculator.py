@@ -52,6 +52,16 @@ elif age <= 0 or weight <= 0 or height <= 0:
 elif age < 18:
     print("BMI calculator is for individuals 18 years or older.")
     valid_input = False 
+elif valid_input:
+    # BMI calculation and categorization code goes here
+    if bmi < 18.5:
+        print("Underweight")
+    elif 18.5 <= bmi <24.9:
+        print("Normal weight")
+    elif 25 <= bmi <29.9:
+        print("Overweight")
+    elif bmi >= 30:
+        print ("Obese")
 else:
     print("Enter valid age, weight, height, and measurement system.")
 

@@ -62,6 +62,8 @@ elif valid_input:
         print("Overweight")
     elif bmi >= 30:
         print ("Obese")
+    elif not valid_input:
+        print("Invalid input")
 else:
     print("Enter valid age, weight, height, and measurement system.")
 

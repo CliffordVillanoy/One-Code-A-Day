@@ -15,6 +15,7 @@ height_units = str(input())
 
 print ("Enter Imperial or Metric: ")
 system_measure = str(input())
+valid_input = True
 
 if system_measure =="Imperial":
     if weight_units == "lbs":

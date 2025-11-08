@@ -38,7 +38,9 @@ print("Last Name is Decimal:", last_name.isdecimal())
 print("First Name is Numeric:", first_name.isnumeric())
 print("Last Name is Numeric:", last_name.isnumeric())
 print("First Name is Identifier:", first_name.isidentifier())
-
+print("Last Name is Identifier:", last_name.isidentifier())
+print("First Name is Digit:", first_name.isdigit())
+print("Last Name is Digit:", last_name.isdigit())
 # The above code takes the user's first and last name as input and prints a welcome message.
 # The above code prints the data types of the variables first_name, last_name, and full name.
 

@@ -47,6 +47,15 @@ students = {
             "English": 84,
             "Python": 90
         }
+    },
+    "2023-005": {
+        "name": "Bob Brown",
+        "year": "4th Year",
+        "grades": {
+            "Math": 88,
+            "English": 84,
+            "Python": 90
+        }
     }
 }
 # Step 2: Print all student records

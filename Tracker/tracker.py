@@ -79,6 +79,8 @@ for item in inventory:
     print("-" * 30)
     print(f"Total Characters in Item Report: {len(item_name) + len(str(unit_price)) + len(str(quantity_stocks)) + len(str(total_value))}")
     print("-" * 30)
+    print(f"Item Name Reversed: {item_name[::-1]}")
+    print(f"Item Name Capitalized: {item_name.capitalize()}")
     print("===== END OF ITEM REPORT =====\n")
 
 print("===== END OF INVENTORY REPORT =====\n")

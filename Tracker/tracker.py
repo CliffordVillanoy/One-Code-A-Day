@@ -81,6 +81,9 @@ for item in inventory:
     print("-" * 30)
     print(f"Item Name Reversed: {item_name[::-1]}")
     print(f"Item Name Capitalized: {item_name.capitalize()}")
+    print(f"Item Name Count of 'i': {item_name.count('i')}")
+    [print(f"Item Name Index of 'i': {item_name.index('i') if 'i' in item_name else 'Not Found'}") for item in inventory if item["is_active"]]
+    print("-" * 30)
     print("===== END OF ITEM REPORT =====\n")
 
 print("===== END OF INVENTORY REPORT =====\n")

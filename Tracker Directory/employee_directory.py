@@ -22,7 +22,7 @@ for emp in employees:
     print(f"Email: {emp['email']}")
     print("\n")
     
-    print("===== END OF DIRECTORY =====\n")
+print("===== END OF DIRECTORY =====\n")
 print("Welcome to the Employee Directory!")
 print("Here are the details of our employees:\n")
 print("====================================")

@@ -66,31 +66,17 @@ tagged_articles = {
         "Machine Learning with Scikit-Learn",
         "Deep Learning with TensorFlow"
     ]
-    " machine_learning": [
+    , "machine_learning": [
         "Supervised Learning",
         "Unsupervised Learning",
         "Reinforcement Learning"
-    ]
+    ],
     "ai": [
         "Intro to Neural Networks",
         "What is Machine Learning?",
         "Natural Language Processing Basics"
     ]
-    "cloud_computing": [
-        "Getting Started with AWS",
-        "Azure Fundamentals",
-        "Google Cloud Platform Basics"
-    ]
-        "cyber_security": [
-        "Understanding Cyber Threats",
-        "Best Practices for Online Security",
-        "Introduction to Ethical Hacking"
-    ]
-        "game_dev": [
-        "Unity for Beginners",
-        "Game Design Principles",
-        "Creating 2D Games with Godot"
-    ]
+
 }
 
 print("\n===== END =====\n")

@@ -67,6 +67,7 @@ elif valid_input:
         print("Invalid input")
 else:
     print("Enter valid age, weight, height, and measurement system.")
+    print("BMI calculation could not be performed.")
 
 print("End of BMI Calculator")
 

@@ -68,6 +68,8 @@ for txn in transactions:
         print("\n")
         print("-" * 40)
         print("\n")
+        print("-" * 40)
+        print("\n")
 
 
 print("===== END OF TRANSACTION LOG =====")

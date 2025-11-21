@@ -19,8 +19,10 @@ def get_letter_grade(score):
         return "A"
     elif score > 50:
         return "B"
-    else:
+    elif score > 25:
         return "C"
+    else:
+        return "D"
 
 print("\n===== GRADE CONVERSION RESULTS =====\n")
 print("Subject Grades:")

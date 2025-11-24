@@ -96,6 +96,8 @@ for key, value in third_book.items():
     print("-" * 20)
     print(f"Is '{key}' an object? {isinstance(value, object)}")
     print("-" * 20)
+    print(f"Is '{key}' iterable? {hasattr(value, '__iter__')}")
+    print("-" * 20)
 print("===== End of Book Details =====\n")
 
 print("\n===== End of Program =====\n")

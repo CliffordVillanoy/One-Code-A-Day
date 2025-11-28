@@ -13,7 +13,13 @@ tagged_articles = {
         "Intro to Neural Networks",
         "What is Machine Learning?",
         "Natural Language Processing Basics"
+    ],
+    "devops": [
+        "Getting Started with Docker",
+        "CI/CD Best Practices",
+        "Kubernetes for Beginners"
     ]
+    
 }
 
 # Step 2: Print all articles under each tag

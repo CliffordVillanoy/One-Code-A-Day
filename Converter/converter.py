@@ -7,6 +7,7 @@ def main():
     print("1. USD to PHP")
     print("2. PHP to USD")
     print("3. Exit")
+    print("Please select a conversion option:")
     choice = input("Enter your choice: ")
 
     if choice == '1':

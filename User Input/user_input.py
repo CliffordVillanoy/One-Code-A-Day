@@ -41,6 +41,12 @@ print("First Name is Identifier:", first_name.isidentifier())
 print("Last Name is Identifier:", last_name.isidentifier())
 print("First Name is Digit:", first_name.isdigit())
 print("Last Name is Digit:", last_name.isdigit())
+print("First Name is Casefolded:", first_name.casefold())
+print("Last Name is Casefolded:", last_name.casefold())
+print("First Name is Centered:", first_name.center(10))
+print("Last Name is Centered:", last_name.center(10))
+print("First Name is Encoded:", first_name.encode())
+print("Last Name is Encoded:", last_name.encode())
 # The above code takes the user's first and last name as input and prints a welcome message.
 # The above code prints the data types of the variables first_name, last_name, and full name.
 

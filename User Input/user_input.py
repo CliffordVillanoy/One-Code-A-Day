@@ -47,6 +47,10 @@ print("First Name is Centered:", first_name.center(10))
 print("Last Name is Centered:", last_name.center(10))
 print("First Name is Encoded:", first_name.encode())
 print("Last Name is Encoded:", last_name.encode())
+print("First Name is Expanded:", first_name.expandtabs())
+print("Last Name is Expanded:", last_name.expandtabs())
+print("First Name is Formatted:", first_name.format())
+print("Last Name is Formatted:", last_name.format())
 # The above code takes the user's first and last name as input and prints a welcome message.
 # The above code prints the data types of the variables first_name, last_name, and full name.
 

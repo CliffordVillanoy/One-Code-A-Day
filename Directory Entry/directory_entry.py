@@ -53,5 +53,7 @@ print(f"Skills List Remove 'Python': {skills.remove('Python')} - Type: {type(ski
 print(f"Skills List After Remove: {skills} - Type: {type(skills)}")
 print(f"Skills List Clear: {skills.clear()} - Type: {type(skills.clear())}")
 print(f"Skills List After Clear: {skills} - Type: {type(skills)}")
+print(f"Contact Info Type: {type(contact_info)}")
+print(f"Contact Info Items: {list(contact_info.items())} - Type: {type(list(contact_info.items()))}")
 
 print("\n===== END OF ENTRY =====\n")

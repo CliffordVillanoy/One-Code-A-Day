@@ -55,5 +55,8 @@ print(f"Skills List Clear: {skills.clear()} - Type: {type(skills.clear())}")
 print(f"Skills List After Clear: {skills} - Type: {type(skills)}")
 print(f"Contact Info Type: {type(contact_info)}")
 print(f"Contact Info Items: {list(contact_info.items())} - Type: {type(list(contact_info.items()))}")
+print(f"Contact Info Get Email: {contact_info.get('email')} - Type: {type(contact_info.get('email'))}")
+print(f"Contact Info Get Phone: {contact_info.get('phone')} - Type: {type(contact_info.get('phone'))}")
+print(f"Contact Info Get Address: {contact_info.get('address', 'N/A')} - Type: {type(contact_info.get('address', 'N/A'))}")
 
 print("\n===== END OF ENTRY =====\n")

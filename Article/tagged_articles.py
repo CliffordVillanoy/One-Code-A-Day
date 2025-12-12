@@ -18,6 +18,11 @@ tagged_articles = {
         "Getting Started with Docker",
         "CI/CD Best Practices",
         "Kubernetes for Beginners"
+    ],
+    "data_science": [
+        "Data Cleaning Techniques",
+        "Exploratory Data Analysis with Pandas",
+        "Data Visualization with Matplotlib"
     ]
     
 }

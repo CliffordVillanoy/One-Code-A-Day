@@ -84,6 +84,9 @@ for item in inventory:
     print(f"Item Name Count of 'i': {item_name.count('i')}")
     [print(f"Item Name Index of 'i': {item_name.index('i') if 'i' in item_name else 'Not Found'}") for item in inventory if item["is_active"]]
     print("-" * 30)
+    print(f"Item Name Starts with 'W': {item_name.startswith('W')}")
+    print(f"Item Name Ends with 'A': {item_name.endswith('A')}")
+    print(f"Item Name Find 'd': {item_name.find('d')}")
     print("===== END OF ITEM REPORT =====\n")
 
 print("===== END OF INVENTORY REPORT =====\n")

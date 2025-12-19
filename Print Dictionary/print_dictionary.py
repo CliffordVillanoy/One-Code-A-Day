@@ -101,7 +101,10 @@ for key, value in third_book.items():
     print(f"Is '{key}' hashable? {hasattr(value, '__hash__')}")
     print("-" * 20)
     print(f"Is '{key}' mutable? {not isinstance(value, (str, int, float, bool, tuple, frozenset, bytes))}")
-    print("-" * 20  )
+    print("-" * 20)
+    print(f"Is '{key}' immutable? {isinstance(value, (str, int, float, bool, tuple, frozenset, bytes))}")
+    print("-" * 20)
+    print(f"Is '{key}' a sequence? {isinstance(value, (str, list, tuple, range, bytes, bytearray))}")
 print("===== End of Book Details =====\n")
 
 print("\n===== End of Program =====\n")

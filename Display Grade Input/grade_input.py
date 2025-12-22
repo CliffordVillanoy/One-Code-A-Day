@@ -59,7 +59,8 @@ elif computer_grade >= 75:
     print("You are doing great in Computer Science!")
 else:
     print("You are doing well in Computer Science!") 
-print("Thank you for using the grade input system!")           
+print("Thank you for using the grade input system!")
+            
 # Calculate average of the four subjects
 import statistics
 grades = [math_grade, english_grade, science_grade, history_grade, computer_grade]

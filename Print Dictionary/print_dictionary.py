@@ -105,6 +105,10 @@ for key, value in third_book.items():
     print(f"Is '{key}' immutable? {isinstance(value, (str, int, float, bool, tuple, frozenset, bytes))}")
     print("-" * 20)
     print(f"Is '{key}' a sequence? {isinstance(value, (str, list, tuple, range, bytes, bytearray))}")
+    print("-" * 20)
+    print(f"Is '{key}' a mapping? {isinstance(value, dict)}")
+    print("-" * 20)
+
 print("===== End of Book Details =====\n")
 
 print("\n===== End of Program =====\n")

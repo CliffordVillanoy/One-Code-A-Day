@@ -108,6 +108,9 @@ for key, value in third_book.items():
     print("-" * 20)
     print(f"Is '{key}' a mapping? {isinstance(value, dict)}")
     print("-" * 20)
+    print(f"Is '{key}' a number? {isinstance(value, (int, float, complex))}")
+    print("-" * 20)
+    print(f"Is '{key}' a set? {isinstance(value, (set, frozenset))}")
 
 print("===== End of Book Details =====\n")
 

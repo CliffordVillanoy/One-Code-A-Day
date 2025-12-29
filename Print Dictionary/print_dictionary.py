@@ -111,6 +111,8 @@ for key, value in third_book.items():
     print(f"Is '{key}' a number? {isinstance(value, (int, float, complex))}")
     print("-" * 20)
     print(f"Is '{key}' a set? {isinstance(value, (set, frozenset))}")
+    print("-" * 20)
+    print(f"Is '{key}' a collection? {hasattr(value, '__len__') and hasattr(value, '__iter__')}")
 
 print("===== End of Book Details =====\n")
 

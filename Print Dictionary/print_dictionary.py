@@ -113,6 +113,13 @@ for key, value in third_book.items():
     print(f"Is '{key}' a set? {isinstance(value, (set, frozenset))}")
     print("-" * 20)
     print(f"Is '{key}' a collection? {hasattr(value, '__len__') and hasattr(value, '__iter__')}")
+    print("-" * 20)
+    print(f"Is '{key}' a container? {hasattr(value, '__contains__')}")
+    print("-" * 20)
+    print(f"Is '{key}' a callable object? {callable(value)}")
+    print("-" * 20)
+    
+
 
 print("===== End of Book Details =====\n")
 

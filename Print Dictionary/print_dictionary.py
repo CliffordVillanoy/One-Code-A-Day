@@ -118,7 +118,9 @@ for key, value in third_book.items():
     print("-" * 20)
     print(f"Is '{key}' a callable object? {callable(value)}")
     print("-" * 20)
-    
+    print(f"Is '{key}' a coroutine? {hasattr(value, '__await__')}")
+    print("-" * 20)
+    print(f"Is '{key}' a generator? {hasattr(value, '__iter__') and not isinstance(value, (str, list, dict, tuple, set))}")
 
 
 print("===== End of Book Details =====\n")

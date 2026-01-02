@@ -124,6 +124,10 @@ for key, value in third_book.items():
     print("-" * 20)
     print(f"Is '{key}' a context manager? {hasattr(value, '__enter__') and hasattr(value, '__exit__')}")
     print("-" * 20)
+    print(f"Is '{key}' a descriptor? {hasattr(value, '__get__') or hasattr(value, '__set__') or hasattr(value, '__delete__')}")
+    print("-" * 20)
+    print(f"Is '{key}' a property? {isinstance(value, property)}")
+    print("-" * 20)
 
 
 print("===== End of Book Details =====\n")

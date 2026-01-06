@@ -49,3 +49,6 @@ print(f"{fahrenheit}°F is equal to {converter.fahrenheit_to_celsius.convert(fah
 print(f"{celsius}°C is equal to {converter.celsius_to_kelvin.convert(celsius)}K")
 print(f"300K is equal to {converter.kelvin_to_celsius.convert(300)}°C")
 print(f"{fahrenheit}°F is equal to {converter.fahrenheit_to_kelvin.convert(fahrenheit)}K")
+print(f"{300}K is equal to {converter.kelvin_to_fahrenheit.convert(300)}°F")
+print("Temperature conversions completed.")
+

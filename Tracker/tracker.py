@@ -84,6 +84,13 @@ for item in inventory:
     print(f"Item Name Starts with 'W': {item_name.startswith('W')}")
     print(f"Item Name Ends with 'A': {item_name.endswith('A')}")
     print(f"Item Name Find 'd': {item_name.find('d')}")
+    print(f"Item Name Replace 'Widget' with 'Gadget': {item_name.replace('Widget', 'Gadget')}")
+    print("-" * 30)
+    print(f"Total Characters in Item Name: {len(item_name)}")
+    print(f"Total Characters in Unit Price: {len(str(unit_price))}")
+    print(f"Total Characters in Quantity Stocks: {len(str(quantity_stocks))}")
+    print(f"Total Characters in Total Value: {len(str(total_value))}")
+    print("-" * 30)
     print("===== END OF ITEM REPORT =====\n")
 
 print("===== END OF INVENTORY REPORT =====\n")

@@ -51,6 +51,14 @@ print("First Name is Expanded:", first_name.expandtabs())
 print("Last Name is Expanded:", last_name.expandtabs())
 print("First Name is Formatted:", first_name.format())
 print("Last Name is Formatted:", last_name.format())
+print("First Name is Justified:", first_name.ljust(10))
+print("Last Name is Justified:", last_name.ljust(10))
+print("First Name is Right Justified:", first_name.rjust(10))
+print("Last Name is Right Justified:", last_name.rjust(10))
+print("First Name is Stripped:", first_name.strip())
+print("Last Name is Stripped:", last_name.strip())
+print("First Name is Swapped:", first_name.swapcase())
+print("Last Name is Swapped:", last_name.swapcase())
 # The above code takes the user's first and last name as input and prints a welcome message.
 # The above code prints the data types of the variables first_name, last_name, and full name.
 

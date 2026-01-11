@@ -59,6 +59,14 @@ print("First Name is Stripped:", first_name.strip())
 print("Last Name is Stripped:", last_name.strip())
 print("First Name is Swapped:", first_name.swapcase())
 print("Last Name is Swapped:", last_name.swapcase())
+print("First Name is Zfilled:", first_name.zfill(10))
+print("Last Name is Zfilled:", last_name.zfill(10))
+print("First Name is Partitioned:", first_name.partition('a'))
+print("Last Name is Partitioned:", last_name.partition('a'))
+print("First Name is Split:", first_name.split())
+print("Last Name is Split:", last_name.split())
+print("First Name is Splitlines:", first_name.splitlines())
+print("Last Name is Splitlines:", last_name.splitlines())
 # The above code takes the user's first and last name as input and prints a welcome message.
 # The above code prints the data types of the variables first_name, last_name, and full name.
 

@@ -65,6 +65,11 @@ elif valid_input:
         print ("Obese")
     elif not valid_input:
         print("Invalid input")
+    elif age < 18:
+        print("BMI calculator is for individuals 18 years or older.")
+        valid_input = False
+        
+
 else:
     print("Enter valid age, weight, height, and measurement system.")
     print("BMI calculation could not be performed.")

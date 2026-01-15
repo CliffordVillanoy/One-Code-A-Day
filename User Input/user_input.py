@@ -67,6 +67,10 @@ print("First Name is Split:", first_name.split())
 print("Last Name is Split:", last_name.split())
 print("First Name is Splitlines:", first_name.splitlines())
 print("Last Name is Splitlines:", last_name.splitlines())
+print("First Name is Startswith:", first_name.startswith('a'))
+print("Last Name is Startswith:", last_name.startswith('a'))
+print("First Name is Endswith:", first_name.endswith('a'))
+print("Last Name is Endswith:", last_name.endswith('a'))  
 # The above code takes the user's first and last name as input and prints a welcome message.
 # The above code prints the data types of the variables first_name, last_name, and full name.
 

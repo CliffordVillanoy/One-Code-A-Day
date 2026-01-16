@@ -46,6 +46,10 @@ for txn in transactions:
         print(f"Account Holder Name: {account_holder['name']} - Type: {type(account_holder['name'])}")
         print(f"Account Number: {account_holder['account_number']} - Type: {type (account_holder['account_number'])}")
         print(f"Account Balance: {account_holder['balance']:.2f} - Type: {type(account_holder['balance'])}")
+        print(f"Is Account Active: {account_holder['is_active']} - Type: {type(account_holder['is_active'])}")
+        print(f"Transaction History: {transactions} - Type: {type(transactions)}")
+        print(f"Transaction Type: {txn_type} - Type: {type(txn_type)}")
+        
 
         print("-" * 40) 
         print(f"Transaction Summary for {account_holder['name']}:")

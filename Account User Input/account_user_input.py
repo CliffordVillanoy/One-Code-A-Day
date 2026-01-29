@@ -59,6 +59,9 @@ for txn in transactions:
         print(f"Transaction Type: {txn_type} - Type: {type(txn_type)}")
         print(f"Transaction Time: {time(12, 0, 0)} - Type: {type(time(12, 0, 0))}")
         print(f"Transaction ID: {id(txn)} - Type: {type(id(txn))}")
+        print(f"Account Holder Info: {account_holder} - Type: {type(account_holder)}")
+        print(f"Account Holder Keys: {list(account_holder.keys())} - Type: {type(list(account_holder.keys()))}")
+        print(f"Account Holder Values: {list(account_holder.values())} - Type: {type(list(account_holder.values()))}")
 
         print("-" * 40) 
         print(f"Transaction Summary for {account_holder['name']}:")

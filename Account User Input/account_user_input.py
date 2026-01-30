@@ -62,6 +62,11 @@ for txn in transactions:
         print(f"Account Holder Info: {account_holder} - Type: {type(account_holder)}")
         print(f"Account Holder Keys: {list(account_holder.keys())} - Type: {type(list(account_holder.keys()))}")
         print(f"Account Holder Values: {list(account_holder.values())} - Type: {type(list(account_holder.values()))}")
+        print(f"Account Holder Items: {list(account_holder.items())} - Type: {type(list(account_holder.items()))}")
+        print(f"Account Holder Length: {len(account_holder)} - Type: {type(len(account_holder))}")
+        print(f"Account Holder Type: {type(account_holder)} - Type: {type(type(account_holder))}")
+        print(f"Account Holder Hash: {hash(id(account_holder))} - Type: {type(hash(id(account_holder)))}")
+        print(f"Account Holder ID: {id(account_holder)} - Type: {type(id(account_holder))}")
 
         print("-" * 40) 
         print(f"Transaction Summary for {account_holder['name']}:")

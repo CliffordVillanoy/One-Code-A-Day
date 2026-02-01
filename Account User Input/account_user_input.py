@@ -67,7 +67,9 @@ for txn in transactions:
         print(f"Account Holder Type: {type(account_holder)} - Type: {type(type(account_holder))}")
         print(f"Account Holder Hash: {hash(id(account_holder))} - Type: {type(hash(id(account_holder)))}")
         print(f"Account Holder ID: {id(account_holder)} - Type: {type(id(account_holder))}")
-
+        print(f"Account Holder Str: {str(account_holder)} - Type: {type(str(account_holder))}")
+        print(f"Account Holder Repr: {repr(account_holder)} - Type: {type(repr(account_holder))}")
+        print(f"Account Holder Dir: {dir(account_holder)} - Type: {type(dir(account_holder))}")
 
         print("-" * 40) 
         print(f"Transaction Summary for {account_holder['name']}:")

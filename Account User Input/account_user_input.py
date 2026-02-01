@@ -70,7 +70,10 @@ for txn in transactions:
         print(f"Account Holder Str: {str(account_holder)} - Type: {type(str(account_holder))}")
         print(f"Account Holder Repr: {repr(account_holder)} - Type: {type(repr(account_holder))}")
         print(f"Account Holder Dir: {dir(account_holder)} - Type: {type(dir(account_holder))}")
-
+        print(f"Fallback Transaction Value: {txn or 0} - Type: {type(txn or 0)}")
+        print(f"Absolute Transaction Value: {abs(txn)} - Type: {type(abs(txn))}")
+        print(f"Rounded Transaction Value: {round(txn, 2)} - Type: {type(round(txn, 2))}")
+        
         print("-" * 40) 
         print(f"Transaction Summary for {account_holder['name']}:")
         print(f"  Account Number: {account_holder['account_number']}")

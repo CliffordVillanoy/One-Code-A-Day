@@ -65,5 +65,9 @@ print(f"Is Full Time And True: {is_full_time and True} - Type: {type(is_full_tim
 print(f"Is Full Time Or False: {is_full_time or False} - Type: {type(is_full_time or False)}")
 print(f"Is Full Time Equals True: {is_full_time == True} - Type: {type(is_full_time == True)}")
 print(f"Is Full Time Not Equals False: {is_full_time != False} - Type: {type(is_full_time != False)}")
+print(f"Hourly Rate Type: {type(hourly_rate)}")
+print(f"Hourly Rate Value: {hourly_rate} - Type: {type(hourly_rate)}")
+print(f"Hourly Rate Plus 5: {hourly_rate + 5} - Type: {type(hourly_rate + 5)}")
+print(f"Hourly Rate Minus 10: {hourly_rate - 10} - Type: {type(hourly_rate - 10)}")
 
 print("\n===== END OF ENTRY =====\n")

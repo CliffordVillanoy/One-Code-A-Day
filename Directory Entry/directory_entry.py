@@ -58,5 +58,12 @@ print(f"Contact Info Items: {list(contact_info.items())} - Type: {type(list(cont
 print(f"Contact Info Get Email: {contact_info.get('email')} - Type: {type(contact_info.get('email'))}")
 print(f"Contact Info Get Phone: {contact_info.get('phone')} - Type: {type(contact_info.get('phone'))}")
 print(f"Contact Info Get Address: {contact_info.get('address', 'N/A')} - Type: {type(contact_info.get('address', 'N/A'))}")
+print(f"Is Full Time Type: {type(is_full_time)}")
+print(f"Is Full Time Value: {is_full_time} - Type: {type(is_full_time)}")
+print(f"Is Full Time Not: {not is_full_time} - Type: {type(not is_full_time)}")
+print(f"Is Full Time And True: {is_full_time and True} - Type: {type(is_full_time and True)}")
+print(f"Is Full Time Or False: {is_full_time or False} - Type: {type(is_full_time or False)}")
+print(f"Is Full Time Equals True: {is_full_time == True} - Type: {type(is_full_time == True)}")
+print(f"Is Full Time Not Equals False: {is_full_time != False} - Type: {type(is_full_time != False)}")
 
 print("\n===== END OF ENTRY =====\n")

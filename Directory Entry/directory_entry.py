@@ -69,5 +69,8 @@ print(f"Hourly Rate Type: {type(hourly_rate)}")
 print(f"Hourly Rate Value: {hourly_rate} - Type: {type(hourly_rate)}")
 print(f"Hourly Rate Plus 5: {hourly_rate + 5} - Type: {type(hourly_rate + 5)}")
 print(f"Hourly Rate Minus 10: {hourly_rate - 10} - Type: {type(hourly_rate - 10)}")
+print(f"Hourly Rate Times 2: {hourly_rate * 2} - Type: {type(hourly_rate * 2)}")
+print(f"Hourly Rate Divided By 3: {hourly_rate / 3} - Type: {type(hourly_rate / 3)}")
+print(f"Hourly Rate Exponentiated To 4: {hourly_rate ** 4} - Type: {type(hourly_rate ** 4)}")
 
 print("\n===== END OF ENTRY =====\n")

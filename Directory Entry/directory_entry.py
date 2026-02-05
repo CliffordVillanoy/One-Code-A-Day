@@ -79,5 +79,8 @@ print(f"Employee Name Value: {employee_name} - Type: {type(employee_name)}")
 print(f"Employee Name Uppercase: {employee_name.upper()} - Type: {type(employee_name.upper())}")
 print(f"Employee Name Lowercase: {employee_name.lower()} - Type: {type(employee_name.lower())}")
 print(f"Employee Name Capitalize: {employee_name.capitalize()} - Type: {type(employee_name.capitalize())}")
+print(f"Employee Name Title: {employee_name.title()} - Type: {type(employee_name.title())}")
+print(f"Employee Name Split: {employee_name.split()} - Type: {type(employee_name.split())}")
+print(f"Employee Name Replace 'John' with 'Jane': {employee_name.replace('John', 'Jane')} - Type: {type(employee_name.replace('John', 'Jane'))}")
 
 print("\n===== END OF ENTRY =====\n")

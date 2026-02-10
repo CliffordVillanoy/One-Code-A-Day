@@ -84,6 +84,10 @@ print(f"Employee Name Split: {employee_name.split()} - Type: {type(employee_name
 print(f"Employee Name Replace 'John' with 'Jane': {employee_name.replace('John', 'Jane')} - Type: {type(employee_name.replace('John', 'Jane'))}")
 print(f"Employee Name Startswith 'John': {employee_name.startswith('John')} - Type: {type(employee_name.startswith('John'))}")
 print(f"Employee Name Endswith 'Doe': {employee_name.endswith('Doe')} - Type: {type(employee_name.endswith('Doe'))}")
+print(f"Employee Name Find 'Doe': {employee_name.find('Doe')} - Type: {type(employee_name.find('Doe'))}")
+print(f"Employee Name Index 'Doe': {employee_name.index('Doe')} - Type: {type(employee_name.index('Doe'))}")
+print(f"Employee Name Count 'o': {employee_name.count('o')} - Type: {type(employee_name.count('o'))}")
+print(f"Employee Name Centered: {employee_name.center(20)} - Type: {type(employee_name.center(20))}")
 
 
 print("\n===== END OF ENTRY =====\n")

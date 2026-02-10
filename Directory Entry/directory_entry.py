@@ -82,5 +82,8 @@ print(f"Employee Name Capitalize: {employee_name.capitalize()} - Type: {type(emp
 print(f"Employee Name Title: {employee_name.title()} - Type: {type(employee_name.title())}")
 print(f"Employee Name Split: {employee_name.split()} - Type: {type(employee_name.split())}")
 print(f"Employee Name Replace 'John' with 'Jane': {employee_name.replace('John', 'Jane')} - Type: {type(employee_name.replace('John', 'Jane'))}")
+print(f"Employee Name Startswith 'John': {employee_name.startswith('John')} - Type: {type(employee_name.startswith('John'))}")
+print(f"Employee Name Endswith 'Doe': {employee_name.endswith('Doe')} - Type: {type(employee_name.endswith('Doe'))}")
+
 
 print("\n===== END OF ENTRY =====\n")

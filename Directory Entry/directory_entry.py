@@ -88,6 +88,10 @@ print(f"Employee Name Find 'Doe': {employee_name.find('Doe')} - Type: {type(empl
 print(f"Employee Name Index 'Doe': {employee_name.index('Doe')} - Type: {type(employee_name.index('Doe'))}")
 print(f"Employee Name Count 'o': {employee_name.count('o')} - Type: {type(employee_name.count('o'))}")
 print(f"Employee Name Centered: {employee_name.center(20)} - Type: {type(employee_name.center(20))}")
+print(f"Employee Name Justified Left: {employee_name.ljust(20)} - Type: {type(employee_name.ljust(20))}")
+print(f"Employee Name Justified Right: {employee_name.rjust(20)} - Type: {type(employee_name.rjust(20))}")
+print(f"Employee Name Zfill: {employee_name.zfill(20)} - Type: {type(employee_name.zfill(20))}")
+print(f"Employee Name Encode: {employee_name.encode()} - Type: {type(employee_name.encode())}")
 
 
 print("\n===== END OF ENTRY =====\n")
